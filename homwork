@@ -1,0 +1,304 @@
+<doctype html>
+    <head>
+        <title>Tables exercise</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Tables HW"/>
+        <style>
+            table, th, td {
+             padding-top: 1px;
+             padding-bottom: 1px;
+             padding-left: 7px;
+             padding-right: 0px;
+             border: 1px solid black;
+              border-collapse: collapse;
+             
+            }
+       
+        </style>
+        <script></script>
+        <link rel="" href="">
+    </head>
+
+    <body>
+             <center><h3>Tables Exercise</h3></center>
+
+             <p>Table 01:</p>
+            <table  style="width: 90%;height: 10%;">
+
+                 <tr style="background-color:aliceblue; text-align: left;">
+                     <th style="padding-left: 5px;">Code</th>
+                     <th style="padding-left: 5px;">Job Title</th>
+                     <th style="text-align: center;">Jobs</th>
+                     <th style="text-align: center;">Experiences</th>
+                     <th style="text-align: center;">Time</th>
+                     <th style="text-align: center;">Work Place</th>
+                 </tr>
+
+            <tr>
+                <td>WD-01</td>
+                <td> FullStack PHP Developer</td>
+                <td style="text-align: center;">5</td>
+                <td style="text-align: center;">3-5</td>
+                <td style="text-align: center;">Full Time</td>
+                <td style="text-align: center;">Online / Office</td>
+            </tr>
+
+            <tr>
+                <td>WD-02</td>
+                <td> UI/UX Designer</td>
+                <td style="text-align: center;">2</td>
+                <td style="text-align: center;">5-10</td>
+                <td style="text-align: center;">Part Time</td>
+                <td style="text-align: center;"> Office</td>
+            </tr>
+
+            <tr>
+                <td>WD-03</td>
+                <td>NodeJs Developer</td>
+                <td style="text-align: center;">5</td>
+                <td style="text-align: center;">3-5</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;">Online / Office</td>
+            </tr>
+
+            <tr>
+                <td>MD-01</td>
+                <td>Swift iOS Mobile Apps Developer</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;">Online / Office</td>
+            </tr>
+
+            <tr>
+                <td>MD-02</td>
+                <td>Java iOS Mobile Apps Developer</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;">Online / Office</td>
+            </tr>
+
+            <tr>
+                <td>MD-03</td>
+                <td>Flutter Mobile Apps Developer</td>
+                <td style="text-align: center;">6</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;">Online / Office</td>
+            </tr>
+
+            <tr>
+                <td>MD-04</td>
+                <td>React Native Mobile Apps Developer</td>
+                <td style="text-align: center;">7</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;">Online / Office</td>
+            </tr>
+
+            <tr>
+                <td>MNG-01</td>
+                <td>Technical Team Leader</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;">Office</td>
+            </tr>
+            
+            <tr>
+                <td>MNG-02</td>
+                <td>Project Manager</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+
+        <span>Table 02:</span>
+        <table style="width: 80%;">
+
+            <tr style="background-color:aliceblue; text-align: left;">
+                <th style="padding-left: 5px;">Code</th>
+                <th style="padding-left: 5px;">Developer</th>
+                <th colspan="3" style="text-align: center;">Platforms</th>
+            </tr>   
+
+            <tr style="background-color:aliceblue;">
+                <td></td>
+                <td></td>
+                <td style="text-align: center;"><b>Web</b></td>
+                <td style="text-align: center;"><b>IOS</b></td>
+                <td style="text-align: center;"><b>Android</b></td>
+            </tr>
+
+            <tr>
+                <td>WD-01</td>
+                <td> FullStack PHP Developer</td>
+                <td style="text-align: center;">5</td>
+                <td style="text-align: center;">3-5</td>
+                <td style="text-align: center;">Full Time</td>
+            </tr>
+
+            <tr>
+                <td>WD-02</td>
+                <td> UI/UX Designer</td>
+                <td style="text-align: center;">2</td>
+                <td style="text-align: center;">5-10</td>
+                <td style="text-align: center;">Part Time</td>
+            </tr>
+
+            <tr>
+                <td>WD-03</td>
+                <td>NodeJs Developer</td>
+                <td style="text-align: center;">5</td>
+                <td style="text-align: center;">3-5</td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MD-01</td>
+                <td>Swift iOS Mobile Apps Developer</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MD-02</td>
+                <td>Java iOS Mobile Apps Developer</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MD-03</td>
+                <td>Flutter Mobile Apps Developer</td>
+                <td style="text-align: center;">6</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MD-04</td>
+                <td>React Native Mobile Apps Developer</td>
+                <td style="text-align: center;">7</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MNG-01</td>
+                <td>Technical Team Leader</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MNG-02</td>
+                <td>Project Manager</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <span>Table 03:</span>
+        <table style="width: 80%;">
+
+            <tr style="background-color:aliceblue; text-align: left;">
+                <th rowspan="2" style="padding-left: 5px;">Code</th>
+                <th rowspan="2" style="padding-left: 5px;">Developer</th>
+                <th colspan="5" style="text-align: center;">Platforms</th>
+            </tr>  
+
+            <tr style="background-color:aliceblue;">
+                <td style="text-align: center;"><b>Web</b></td>
+                <td style="text-align: center;"><b>IOS</b></td>
+                <td style="text-align: center;"><b>Android</b></td>
+            </tr>
+
+            
+            <tr>
+                <td>WD-01</td>
+                <td> FullStack PHP Developer</td>
+                <td style="text-align: center;">5</td>
+                <td style="text-align: center;">3-5</td>
+                <td style="text-align: center;">Full Time</td>
+            </tr>
+
+            <tr>
+                <td>WD-02</td>
+                <td> UI/UX Designer</td>
+                <td style="text-align: center;">2</td>
+                <td style="text-align: center;">5-10</td>
+                <td style="text-align: center;">Part Time</td>
+            </tr>
+
+            <tr>
+                <td>WD-03</td>
+                <td>NodeJs Developer</td>
+                <td style="text-align: center;">5</td>
+                <td style="text-align: center;">3-5</td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MD-01</td>
+                <td>Swift iOS Mobile Apps Developer</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MD-02</td>
+                <td>Java iOS Mobile Apps Developer</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MD-03</td>
+                <td>Flutter Mobile Apps Developer</td>
+                <td style="text-align: center;">6</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MD-04</td>
+                <td>React Native Mobile Apps Developer</td>
+                <td style="text-align: center;">7</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MNG-01</td>
+                <td>Technical Team Leader</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+
+            <tr>
+                <td>MNG-02</td>
+                <td>Project Manager</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: center;"></td>
+                <td style="text-align: center;"></td>
+            </tr>
+        </table>
+
+    </body>
+    </html>
